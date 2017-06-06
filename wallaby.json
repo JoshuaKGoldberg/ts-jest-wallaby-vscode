@@ -1,0 +1,14 @@
+{
+  "files": [
+    "src/**/*.ts"
+  ],
+  "tests": [
+    "tests/**/*.test.ts"
+  ],
+  "env": {
+    "type": "node",
+    "runner": "node"
+  },
+  "testFramework": "jest",
+  "debug": true
+}
