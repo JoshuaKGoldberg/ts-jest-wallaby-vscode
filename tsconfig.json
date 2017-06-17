@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2015",
     "module": "commonjs",
     "sourceMap": true,
-    "strict": true,
+    "alwaysStrict": true,
     "outDir": "dist",
     "typeRoots": [
       "./node_modules/@types"

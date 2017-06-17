@@ -10,19 +10,16 @@
   },
   "author": "nextb1t",
   "license": "MIT",
-
   "dependencies": {
+    "typescript.events": "^6.0.0"
   },
-
   "devDependencies": {
     "@types/jest": "^19.2.4",
-
     "nodemon": "^1.11.0",
-    "typescript": "^2.3.4",    
-    "jest": "^19.0.2",    
+    "typescript": "^2.3.4",
+    "jest": "^19.0.2",
     "ts-jest": "^20.0.5"
   },
-
   "jest": {
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
