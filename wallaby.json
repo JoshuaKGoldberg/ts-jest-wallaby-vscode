@@ -4,7 +4,7 @@
     "src/**/*.ts"
   ],
   "tests": [
-    "test/**/*.test.ts"
+    "tests/**/*.test.ts"
   ],
 
   "env": {

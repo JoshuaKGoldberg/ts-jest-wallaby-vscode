@@ -2,6 +2,7 @@
 
 ### Custom ###
 dist/
+*.map.js
 
 ### Linux ###
 *~

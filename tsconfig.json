@@ -3,6 +3,12 @@
     "target": "es2015",
     "module": "commonjs",
     "sourceMap": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
     "alwaysStrict": true,
     "outDir": "dist",
     "typeRoots": [
@@ -16,6 +22,7 @@
     "src/**/*.ts"
   ],
   "exclude": [
-    "test/**/*.test.ts"
+    "test/**/*.test.ts",
+    "node_modules"
   ]
 }
