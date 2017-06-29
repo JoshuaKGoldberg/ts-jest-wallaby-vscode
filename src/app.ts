@@ -1,4 +1,3 @@
-import {sum} from "./sum"
-import {mult} from "./mult"
+import sum from "./sum"
 
-console.log('Yo App!', sum(10, 6), mult(3, 2))
+console.log('Hello, world!', sum(42, 7))
