@@ -1,5 +1,5 @@
-# Template: Typescript | Jest | Wallaby | VSCode
-Template basic project with the Typescript, Jest unit tests, Wallaby config and VSCode settings.
+# Template: Typescript + Jest + Wallaby + VSCode
+Template basic project with the Typescript, Jest framework for unit tests, Wallaby config for visualizating the Jest test results and VSCode settings for the Typescript compilation.
 
 ### ⚡ Typescript setup in VSCode
 The compiler is already set up to watch for any changes in .vscode/tasks.json  
