@@ -1,5 +1,5 @@
 # Template: Typescript | Jest | Wallaby | VSCode
-Basic project with the Typescript, Jest unit tests, Wallaby config and VSCode settings.
+Template basic project with the Typescript, Jest unit tests, Wallaby config and VSCode settings.
 
 ### ⚡ Typescript setup in VSCode
 The compiler is already set up to watch for any changes in .vscode/tasks.json  
@@ -26,4 +26,8 @@ First command will install jest package, second — will run the tests. But you 
 
 **Ctrl+Shift+=**  
 -> Start  
-*(or **Ctrl+Shift+R R**)*
+*(or **Ctrl+Shift+R R**)*  
+
+
+At the end of the setup you should be looking at something like this:
+![Screenshot](https://user-images.githubusercontent.com/5485663/28102005-3b610fa6-6681-11e7-8369-d423081621d4.PNG)
