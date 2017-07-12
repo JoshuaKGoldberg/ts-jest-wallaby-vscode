@@ -1,5 +1,5 @@
-# ts-jest-wallaby-vscode
-Template project with: Typescript, Jest unit tests, Wallaby config and VSCode settings.
+# Template: Typescript | Jest | Wallaby | VSCode
+Basic project with the Typescript, Jest unit tests, Wallaby config and VSCode settings.
 
 ### ⚡ Typescript setup in VSCode
 The compiler is already set up to watch for any changes in .vscode/tasks.json  
@@ -10,6 +10,7 @@ npm run dev
 ```
 After compilation these commands should work. The latter will start with nodemon.
 
+  
 ### ⚡ Jest setup in VSCode
 ```console
 npm install
