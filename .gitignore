@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/node,macos,linux,windows
 
 ### Custom ###
-dist/
+dist
 *.map.js
 
 ### Linux ###
