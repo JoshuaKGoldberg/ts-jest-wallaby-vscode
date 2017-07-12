@@ -11,7 +11,7 @@ npm run dev
 After compilation these commands should work. The latter will start with nodemon.
 
   
-### ⚡ Jest setup in VSCode
+### ⚡ Jest setup
 ```console
 npm install
 npm test
