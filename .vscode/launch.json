@@ -8,10 +8,12 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${file}",
+      "program": "${workspaceRoot}/dist/index.js",
+      "smartStep": true,
       "outFiles": [
         "${workspaceRoot}/dist/**/*.js"
-      ]
+      ],
+      "protocol": "inspector"
     }
   ]
 }
