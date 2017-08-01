@@ -1,11 +1,11 @@
 {
   "name": "ts-jest-wallaby-vscode",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Template with Typescript, Jest, Wallaby and VSCode settings",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon ./dist/index.js",
+    "start": "LOGLEVEL=err node dist/index.js",
+    "dev": "LOGLEVEL=info nodemon ./dist/index.js",
     "dev-build": "nodemon -e ts --exec \"npm run build && node ./dist/index.js\"",
     "build": "tsc",
     "test": "jest"
@@ -23,8 +23,7 @@
   "homepage": "https://github.com/nextb1t/ts-jest-wallaby-vscode.git#readme",
   "author": "nextb1t",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^19.2.4",
     "@types/node": "^8.0.17",
