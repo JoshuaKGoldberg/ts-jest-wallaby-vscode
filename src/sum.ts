@@ -1,5 +1,6 @@
-export function sum(a: number, b: number): number {
-  return a+b
-}
+import { MyNumber } from "./types";
+import { MyExcludedNumber } from "./excluded";
 
-export default sum
+export function sum(a: MyNumber, b: MyExcludedNumber): number {
+    return a + b;
+}

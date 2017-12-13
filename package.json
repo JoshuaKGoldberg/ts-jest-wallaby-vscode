@@ -36,6 +36,10 @@
     "node": "^7.10.1"
   },
   "jest": {
+    "collectCoverageFrom": [
+      "src/*.ts",
+      "!src/excluded.ts"
+    ],
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
